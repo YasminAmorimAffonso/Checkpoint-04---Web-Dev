@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "adlam";
+    src: url("../../public/assets/fonts/ADLaM_Display/ADLaMDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: "abeezee";
+    src: url("../../public/assets/fonts/ABeeZee/ABeeZee-Regular.ttf");
+}
+
+
+.tudo-cabecalho {
+
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 115px;
+
+    padding: 0px 65px;
+
+    background-color: #248B6F;
+
+    border-radius: 40px;
+
+    position: relative;
+
+    margin: 15px;
+
+
+
+}
+
+#logo {
+
+    width: 100px;
+
+    height: 100px;
+
+    background-color: #248B6F;
+
+
+}
+
+.buttons {
+
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #248B6F;
+
+    .button {
+
+        color: #C2D4AC;
+
+        background-color: #248B6F;
+
+        text-decoration: none;
+
+        font: 21px "abeezee";
+
+        padding: 15px;
+
+        border-radius: 30px;
+
+        margin-right: 15px;
+
+    }
+
+    .button:hover {
+
+        color: #23541C;
+
+        background-color: #C2D4AC;
+
+        padding: 17px;
+
+        box-shadow: 0px 0px 5px 5px #22541c3a;
+
+        transition: 0.3s;
+
+    }
+
+    .carrinhos {
+
+        a {
+
+
+            .carrinho-claro {
+
+                background-color: #248B6F;
+
+                width: 50px;
+
+                height: 50px;
+
+                padding: 20px;
+
+            }
+
+            .carrinho-escuro {
+
+                display: none;
+
+                background-color: #248B6F;
+
+                width: 70px;
+
+                height: 70px;
+
+                padding: 5px;
+
+                background-color: #C2D4AC;
+
+                border-radius: 50px;
+
+                box-shadow: 0px 0px 5px 5px #22541c3a;
+
+
+            }
+
+        }
+
+        a:hover {
+
+            transition: 0.3s;
+
+            .carrinho-claro {
+
+
+
+                display: none;
+
+            }
+
+            .carrinho-escuro {
+
+                display: block;
+
+
+
+            }
+
+        }
+    }
+
+}
