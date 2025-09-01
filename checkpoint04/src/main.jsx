@@ -10,7 +10,7 @@ import Carrinho from './carrinho.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
 
-<BrowserRouter basename="/Checkpoint-04---Web-Dev">
+<BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/loja" element={<Loja />} />
