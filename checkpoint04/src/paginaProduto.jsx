@@ -14,7 +14,7 @@ function Produto() {
 
     const adicionarAoCarrinho = () => {
 
-        localStorage.setItem(produtoInfo);
+        sessionStorage.setItem(produtoInfo);
 
         setMensagem(`Produto "${produtoInfo.nome}" adicionado ao carrinho!`);
     };
