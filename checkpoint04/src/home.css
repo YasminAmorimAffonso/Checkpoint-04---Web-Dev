@@ -1,15 +1,43 @@
+
+
+
+
+
 .body-home {
 
     display: flex;
 
     flex-direction: column;
-    justify-content: space-between;
-
-    height: 865px;
 
     background-color: #C2D4AC;
 
+    min-height: 100vh;
+
+
     .content-home {
+
+        flex: 1;
+
+
+        .circulo-home {
+
+            align-self: center;
+
+            width: 800px;
+
+            margin-left: -50px;
+
+            padding: 50px;
+
+        }
+
+        .vinhas-home {
+
+            width: 600px;
+
+            margin-left: 400px;
+
+        }
 
         .secao1-home {
 
@@ -21,8 +49,318 @@
             height: 100%;
             width: 100%;
 
+            h1 {
+
+                margin-left: 200px;
+
+                margin-top: -575px;
+
+            }
+
+            h3 {
+
+                margin-left: 205px;
+
+            }
+
+        }
+
+        .secao2-home {
+
+            display: flex;
+
+            flex-direction: column;
+            justify-content: space-evenly;
+
+
+            height: 100%;
+            width: 100%;
+
+            padding-left: 150px;
+
+            h3 {
+
+                font-family: "adlam";
+                font-size: 35px;
+
+                width: 700px;
+
+                color: #11410E;
+
+                text-align: start;
+
+
+
+            }
+
+            p {
+
+                font-family: "abeezee";
+                font-size: 20px;
+
+                color: #11410E;
+
+                text-align: start;
+
+                width: 1000px;
+
+            }
+
+
+
+        }
+
+        .secao3-home {
+
+            display: flex;
+
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: end;
+
+
+            height: 100%;
+            width: 80%;
+
+            padding-left: 50px;
+
+            h3 {
+
+                font-family: "adlam";
+                font-size: 35px;
+
+                width: 700px;
+
+                color: #11410E;
+
+                text-align: end;
+
+
+
+
+            }
+
+            p {
+
+                font-family: "abeezee";
+                font-size: 20px;
+
+                color: #11410E;
+
+                text-align: end;
+
+                width: 1000px;
+
+            }
+
+
+        }
+
+        .secao4-home {
+
+            display: flex;
+
+            flex-direction: column;
+            justify-content: space-evenly;
+
+
+            height: 100%;
+            width: 100%;
+
+            padding-left: 150px;
+
+
+            h3 {
+
+                font-family: "adlam";
+                font-size: 35px;
+
+                width: 700px;
+
+                color: #11410E;
+
+                text-align: start;
+
+
+
+            }
+
+
+            h4 {
+
+                font-family: "adlam";
+                font-size:25px;
+
+                width: 700px;
+
+                color: #11410E;
+
+                text-align: start;
+
+
+
+            }
+
+
+            p {
+
+                font-family: "abeezee";
+                font-size: 20px;
+
+                color: #11410E;
+
+                text-align: start;
+
+                width: 1000px;
+
+            }
+
+        }
+
+
+        .secao5-home {
+
+
+            display: flex;
+
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: end;
+
+
+            height: 100%;
+            width: 80%;
+
+            padding-left: 50px;
+
+            h4 {
+
+                font-family: "adlam";
+                font-size: 35px;
+
+                width: 700px;
+
+                color: #11410E;
+
+                text-align: end;
+
+
+
+
+            }
+
+            p {
+
+                font-family: "abeezee";
+                font-size: 20px;
+
+                color: #11410E;
+
+                text-align: end;
+
+                width: 1000px;
+
+            }
+
+        }
+
+
+        .secao6-home {
+
+            display: flex;
+
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: start;
+
+
+            height: 100%;
+            width: 80%;
+
+            padding-left: 150px;
+
+
+            h4 {
+
+                font-family: "adlam";
+                font-size:25px;
+
+                width: 700px;
+
+                color: #11410E;
+
+                text-align: start;
+
+
+
+            }
+
+
+            p {
+
+                font-family: "abeezee";
+                font-size: 20px;
+
+                color: #11410E;
+
+                text-align: start;
+
+                width: 1000px;
+
+            }
+
+        }
+
+
+        .secao7-home {
+
+            display: flex;
+
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: end;
+
+
+            height: 100%;
+            width: 80%;
+
+            padding-left: 50px;
+
+            h4 {
+
+                font-family: "adlam";
+                font-size: 35px;
+
+                width: 700px;
+
+                color: #11410E;
+
+                text-align: end;
+
+
+
+
+            }
+
+            p {
+
+                font-family: "abeezee";
+                font-size: 20px;
+
+                color: #11410E;
+
+                text-align: end;
+
+                width: 1000px;
+
+            }
+
+
         }
 
     }
 
+
 }
+
+
