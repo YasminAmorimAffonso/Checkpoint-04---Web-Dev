@@ -9,7 +9,7 @@ function Cabecalho() {
 
             <div className="tudo-cabecalho">
 
-                <img src="/assets/imgs/logo.png" alt="logo" id='logo' />
+                <img src="assets/imgs/logo.png" alt="logo" id='logo' />
 
                 <div className="buttons">
 
