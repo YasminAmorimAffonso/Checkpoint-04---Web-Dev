@@ -10,9 +10,9 @@ function Rodape() {
             <div className="tudo-rodape">
 
 
-                <img src="../../public/assets/imgs/logo.png" alt="logo" className='logo'/>
+                <img src="/assets/imgs/logo.png" alt="logo" className='logo'/>
 
-                <img src="../../public/assets/imgs/vinhaclara.png" alt="" className='vinha-rodape'/>
+                <img src="/assets/imgs/vinhaclara.png" alt="" className='vinha-rodape'/>
 
                 <div className='sobre-nos'>
 
@@ -23,7 +23,7 @@ function Rodape() {
                 </div>
 
 
-                <img src="../../public/assets/imgs/vinhaclara.png" alt="" className='vinha-rodape'/>
+                <img src="/assets/imgs/vinhaclara.png" alt="" className='vinha-rodape'/>
 
                 <div className='buttons-rodape'>
 
