@@ -10,7 +10,7 @@ function Carrinho() {
 
 
 
-    for (let n = 0; sessionStorage.length; n++){
+    for (let n = 0; n <= sessionStorage.length; n++){
 
         let produto = [];
 
