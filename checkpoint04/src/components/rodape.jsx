@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import { Link } from 'react-router-dom'
 import './rodape.css'
 
 function Rodape() {
@@ -31,11 +31,11 @@ function Rodape() {
 
                     <div className='links-rodape'>
 
-                        <a href="">Home</a>
+                        <Link to="/" className='links-rodape'>Home</Link>
 
-                        <a href="">Loja</a>
+                        <Link to="/loja" className='links-rodape'>Loja</Link>
 
-                        <a href="">Carrinho</a>
+                        <Link to="/carrinho" className='links-rodape'>Carrinho</Link>
 
                     </div>
 

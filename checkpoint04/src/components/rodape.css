@@ -1,20 +1,10 @@
 
 
 
-
 * {
 
     margin: 0px;
-
-    @font-face {
-        font-family: "adlam";
-        src: url("../../public/assets/fonts/ADLaM_Display/ADLaMDisplay-Regular.ttf");
-    }
     
-    @font-face {
-        font-family: "abeezee";
-        src: url("../../public/assets/fonts/ABeeZee/ABeeZee-Regular.ttf");
-    }
 
 }
 
@@ -116,7 +106,7 @@
 
             height: 100%;
 
-            a {
+            .links-rodape {
 
                 color: #C2D4AC;
 
@@ -127,7 +117,7 @@
 
             }
 
-            a:hover {
+            .links-rodape:hover {
 
                 transition: 0.3s;
 

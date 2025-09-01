@@ -1,13 +1,15 @@
 
 
 
+* {
 
-@font-face {
-    font-family: "adlam";
-    src: url("./ADLaM_Display/ADLaMDisplay-Regular.ttf");
-}
+    @font-face {
+        font-family: "adlam";
+        src: url("./ADLaM_Display/ADLaMDisplay-Regular.ttf");
+    }
 
-@font-face {
-    font-family: "abeezee";
-    src: url("./ABeeZee/ABeeZee-Regular.ttf");
+    @font-face {
+        font-family: "abeezee";
+        src: url("./ABeeZee/ABeeZee-Regular.ttf");
+    }
 }

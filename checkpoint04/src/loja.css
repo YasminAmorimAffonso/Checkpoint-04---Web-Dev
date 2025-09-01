@@ -1,0 +1,339 @@
+.body-loja {
+    .content-loja {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        background-color: #C2D4AC;
+
+        height: 100%;
+
+        .secao1-loja {
+
+            display: flex;
+            justify-content: flex-end;
+
+            background-image: url("../public/assets/imgs/produto.png");
+            background-repeat: no-repeat;
+            background-size: 1000px 700px;
+            background-position: 150px 15px;
+
+            height: 500px;
+
+            padding: 150px;
+
+            h1 {
+
+                color: #457A39;
+
+                font-family: "antic";
+                font-size: 75px;
+                font-weight: 100;
+
+                width: 500px;
+
+                text-align: right;
+
+                line-height: 125px;
+
+
+
+            }
+
+        }
+
+    }
+
+
+    .secao-produtos {
+
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+
+        padding: 200px 100px;
+
+        .filtros-loja {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            height: 700px;
+
+            background-color: #248B6F;
+
+            padding: 50px;
+
+            border-radius: 25px;
+
+            margin-right: 100px;
+
+            box-shadow: 0px 0px 5px 5px #11410e4f;
+
+
+            h3 {
+
+                color: #C2D4AC;
+
+                font-family: "antic";
+                font-size: 35px;
+
+                text-align: center;
+
+                padding-bottom: 50px;
+
+            }
+
+            h4 {
+
+                font-family: "abeezee";
+                font-weight: 100;
+                font-size: 20px;
+
+                color: #C2D4AC;
+
+            }
+
+            .linha-filtros-loja {
+
+                height: 1.5px;
+                width: 175px;
+
+                align-self: center;
+
+                background-color: #C2D4AC;
+
+            }
+
+            button {
+
+                margin: 25px;
+
+                margin-top: 50px;
+
+                padding: 25px;
+
+                text-align: center;
+
+                background-color: #C2D4AC;
+
+                color: #248B6F;
+                font-family: "abeezee";
+                font-size: 25px;
+
+                border: none;
+                border-radius: 50px;
+
+            }
+
+            button:hover {
+
+                transition: 0.3s;
+
+                cursor: pointer;
+
+                box-shadow: 0px 0px 5px 5px #22541c3a;
+
+                font-size: 30px;
+
+            }
+
+            .filtros-categoria {
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+
+                height: 100%;
+
+                padding: 25px 0px;
+
+                box-shadow: 11410E;
+
+
+                .filtros-opcoes {
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+
+                    height: 100%;
+
+                    .loja-filtros-opcao {
+
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+
+                        input {
+
+                            color: transparent;
+
+                            appearance: none;
+
+                            -webkit-appearance: none;
+
+                            -moz-appearance: none;
+
+                            border: 1.5px solid #C2D4AC;
+                            border-radius: 5px;
+
+                            width: 20px;
+
+                            height: 20px;
+
+                            cursor: pointer;
+
+                        }
+
+                        input:checked {
+
+                            transition: 0.15s;
+
+                            background-color: #C2D4AC;
+
+                        }
+
+                        input:checked::after {
+
+                            content: "✔";
+
+                            color: #248B6F;
+
+                            font-size: 16px;
+
+                            margin-top: -25px;
+                            margin-left: 4px;
+
+                        }
+
+                        p {
+
+                            color: #C2D4AC;
+
+                            font-family: "abeezee";
+
+                            margin-left: 15px;
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        .produtos-loja {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+
+            width: 100%;
+
+
+
+            .link-loja {
+
+                text-decoration: none;
+
+                .card-loja {
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+
+                    background-color: #248B6F;
+
+                    padding: 15px 25px;
+
+                    border-radius: 30px;
+
+                    height: 500px;
+
+                    margin-top: 50px;
+
+                    box-shadow: 0px 0px 5px 5px #11410e4f;
+
+
+                    img {
+
+                        height: 200px;
+
+                        width: 170px;
+
+                        background-color: #C2D4AC;
+
+                        padding: 15px;
+
+                        border-radius: 15px;
+
+                    }
+
+                    h4 {
+
+                        color: #C2D4AC;
+
+                        font-family: "abeezee";
+                        font-size: 25px;
+
+                        width: 250px;
+
+                        text-align: center;
+                        line-height: 35px;
+
+                        margin-top: 30px;
+
+                        text-decoration: none;
+
+                    }
+
+                    h6 {
+
+                        color: #C2D4AC;
+
+                        font-family: "abeezee";
+                        font-size: 20px;
+
+                        width: 250px;
+
+                        text-align: center;
+                        line-height: 35px;
+
+                        margin-bottom: 30px;
+
+                        text-decoration: none;
+
+
+                    }
+
+
+                }
+
+                .card-loja:hover {
+
+                    transition: 0.3s;
+
+                    padding: 25px 35px;
+
+                    img {
+
+                        transition: 0.3s;
+
+                        padding: 25px;
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+}

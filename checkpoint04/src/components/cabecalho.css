@@ -8,6 +8,10 @@
     src: url("../../public/assets/fonts/ABeeZee/ABeeZee-Regular.ttf");
 }
 
+@font-face {
+    font-family: "antic";
+    src: url("../../public/assets/fonts/Antic/Antic-Regular.ttf");
+}
 
 .tudo-cabecalho {
 
@@ -88,7 +92,7 @@
 
     .carrinhos {
 
-        a {
+        .button-carrinho {
 
 
             .carrinho-claro {
@@ -126,9 +130,13 @@
 
         }
 
-        a:hover {
+        .button-carrinho:hover {
 
             transition: 0.3s;
+
+            background-color: #C2D4AC;
+
+            box-shadow: 0px 0px 5px 5px #22541c3a;
 
             .carrinho-claro {
 

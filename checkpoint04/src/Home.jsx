@@ -16,7 +16,7 @@ function Home() {
 
           <div className='secao1-home'>
 
-            <img src="../../public/assets/imgs/circulo.png" alt="" />
+            <img src="/assets/imgs/circulo.png" alt="" />
 
             <h1>Sustainable Products</h1>
 
