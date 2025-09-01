@@ -1,12 +1,9 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Loja Sustentável - Sustainable Products
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Esta aplicação foi feito com foco em uma loja online de produtos sustentáveis. Desenvolvida como trabalho de faculdade, seu foco é em interatividade e persistência de dados. Possui carrinho dinâmico, filtros de produtos por categoria e preço, carregamento de itens via JSON, e persistência de compras usando localStorage. As requisições assíncronas são feitas com fetch, incluindo integração com uma Fake API, enquanto o checkout simulado utiliza promises para validação e confirmação de pedidos de forma assíncrona, acompanhada de loading spinner para melhor experiência do usuário.
+
+Tecnologias utilizadas: HTML, CSS, JavaScript, JSON, localStorage, Fetch API, Promises e Manipulação de DOM.
