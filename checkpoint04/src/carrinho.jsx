@@ -6,6 +6,23 @@ import './carrinho.css'
 
 function Carrinho() {
 
+    const [produto, setProduto] = useState([]);
+
+
+
+    for (let n = 0; sessionStorage.length; n++){
+
+        let produto = [];
+
+        sessionStorage.getItem("produto");
+
+    let valorFinal = {produto.preco} + 19.9;
+
+    const Limpar = () => {
+
+        sessionStorage.clear();
+
+    }
 
     return (
         <>
@@ -31,9 +48,9 @@ function Carrinho() {
 
                                     </div>
 
-                                    <h4>Bloom Restoring + multipurpose oil</h4>
+                                    <h4>{produto.nome}</h4>
 
-                                    <h6>R$ 200,00</h6>
+                                    <h6>R$ {produto.preco}</h6>
 
                                 </div>
 
@@ -57,7 +74,7 @@ function Carrinho() {
 
                                 <h2>Subtotal</h2>
 
-                                <p>R$ xx,xx</p>
+                                <p>R$ {produto.preco}</p>
 
                             </div>
 
@@ -65,7 +82,7 @@ function Carrinho() {
 
                                 <h2>Entrega</h2>
 
-                                <p>R$ xx,xx</p>
+                                <p>R$ 19,90</p>
 
                             </div>
 
@@ -76,11 +93,11 @@ function Carrinho() {
 
                                 <h2>Total</h2>
 
-                                <p>R$ xx,xx</p>
+                                <p>R$ {valorFinal} </p>
 
                             </div>
 
-                            <button className='botao-finalizar'>Continuar</button>
+                            <button className='botao-finalizar' onClick = Limpar>Continuar</button>
 
                         </div>
 
