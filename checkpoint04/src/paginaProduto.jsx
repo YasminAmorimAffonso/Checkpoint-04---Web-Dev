@@ -14,12 +14,7 @@ function Produto() {
 
     const adicionarAoCarrinho = () => {
 
-        
-        const carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
-
-        carrinho.push({ ...produtoInfo, data: new Date().toISOString() });
-
-        localStorage.setItem('carrinho', JSON.stringify(carrinho));
+        localStorage.setItem(produtoInfo);
 
         setMensagem(`Produto "${produtoInfo.nome}" adicionado ao carrinho!`);
     };
