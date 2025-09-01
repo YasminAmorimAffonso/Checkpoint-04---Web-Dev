@@ -235,6 +235,17 @@
 
             width: 100%;
 
+            p {
+
+                color: #457A39;
+
+                font-family:  "adlam";
+                font-size: 35px;
+
+                text-align: center;
+
+            }
+
 
 
             .link-loja {
